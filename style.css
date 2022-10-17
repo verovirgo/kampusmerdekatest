@@ -1,0 +1,46 @@
+table,
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+.satu {
+  background-color: #251B37;
+  color: white;
+}
+
+.lima {
+  background-color: #A1C298;
+  color: white;
+}
+
+.enam {
+  background-color: #A1C298;
+  color: white;
+  text-align: left;
+}
+
+.delapan {
+  background-color: #A1C298;
+  color: white;
+}
+
+.enambelas {
+  background-color: #FA7070;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 50px;
+  }
+}
